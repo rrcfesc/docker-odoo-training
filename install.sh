@@ -3,7 +3,7 @@ echo """You can install this script using 'root' user (using 'sudo su - root') a
 apt-get update && apt-get install -y wget
 wget https://raw.githubusercontent.com/Vauxoo/docker-odoo-training/master/install.sh -O install.sh
 chmod +x install.sh
-./install.sh myusros  # Change 'myusros' to use your custom OS' user name
+./install.sh myosusr  # Change 'myusros' to use your custom OS' user name
 """
 export USER=$1
 
